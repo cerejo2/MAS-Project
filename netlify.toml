@@ -1,6 +1,6 @@
 [build]
   base    = "src/frontend/Loop"
-  command = "vite build"
+  command = "npm run build:netlify"
   publish = "dist"
 
 [[redirects]]
