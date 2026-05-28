@@ -1,7 +1,7 @@
 [build]
   base    = "src/frontend/Loop"
-  command = "npm run build"
-  publish = "src/frontend/Loop/dist"
+  command = "vite build"
+  publish = "dist"
 
 [[redirects]]
   from   = "/*"
