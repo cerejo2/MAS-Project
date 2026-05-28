@@ -1,0 +1,9 @@
+[build]
+  base    = "src/frontend/Loop"
+  command = "npm run build"
+  publish = "src/frontend/Loop/dist"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
